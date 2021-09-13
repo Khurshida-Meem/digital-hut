@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Haat</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light brown-bg fixed-top">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="img/icon.png" alt="" width="50px" />
+                    <h2 class="pt-2 ms-2">Haat</h2>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Departments
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item item-hover fw-bold" href="#cows">Cow</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item item-hover fw-bold" href="#goats">Goat</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item item-hover fw-bold" href="#sheeps">Sheep</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item item-hover fw-bold" href="#camels">Camel</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#sellers">Sellers</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container">
+            <div id="carouselExampleIndicators" class="carousel slide lite-bg" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row p-3 d-flex align-items-center">
+                            <div class="col-lg-7  mt-5">
+                                <h1 class="green-text">Welcome to Modern Haat</h1>
+                                <h3 class="green-text">We are Providing Goods at Best Price</h3>
+                                <br>
+                                <button class="brown-button rounded-pill">See Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="img/header/animal.png" class="d-block mt-5" alt="..." width="400px" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-3 d-flex align-items-center">
+                            <div class="col-lg-7  mt-5">
+                                <h1 class="green-text">Welcome to Modern Haat</h1>
+                                <h3 class="green-text">We are Providing Goods at Best Price</h3>
+                                <br>
+                                <button class="brown-button rounded-pill">See Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="img/header/cow.png" class="d-block  mt-5" alt="..." width="400px"
+                                    height="350" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-3 d-flex align-items-center">
+                            <div class="col-lg-7  mt-5">
+                                <h1 class="green-text">Welcome to Modern Haat</h1>
+                                <h3 class="green-text">We are Providing Goods at Best Price Without any Chemical</h3>
+                                <br>
+                                <button class="brown-button rounded-pill">See Now</button>
+                            </div>
+                            <div class="col-lg-5  mt-5">
+                                <img src="img/header/goat.png" class="d-block" alt="..." width="400px" height="350" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!---------------------- catagories section -------------------------------->
+        <section class="container my-5">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between border-radius">
+                        <h1 class="text-white">Cows</h1>
+                        <img src="img/icons/cow-face-front.png" alt="" width="100px">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border bg-primary d-flex align-items-center justify-content-between border-radius">
+                        <h1 class="text-white">Goats</h1>
+                        <img src="img/icons/goat.png" alt="" width="100px">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border bg-success d-flex align-items-center justify-content-between border-radius">
+                        <h1 class="text-white">Camels</h1>
+                        <img src="img/icons/camel.png" alt="" width="100px">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!----------------------------------- cows section -------------------------------------------->
+        <section class="container mt-5" id="cows">
+            <h2 class="text-center green-text">Cows</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-1.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-1</h3>
+                            <h5 class="card-text">Price: $60,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-2.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-2</h3>
+                            <h5 class="card-text">Price: $1,00,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-3.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-3</h3>
+                            <h5 class="card-text">Price: $40,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-4.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-4</h3>
+                            <h5 class="card-text">Price: $50,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-5.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-5</h3>
+                            <h5 class="card-text">Price: $30,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/cows/cow-6.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Cow-6</h3>
+                            <h5 class="card-text">Price: $70,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------- goats section ---------------------------------------------->
+        <section class="container mt-5" id="goats">
+            <h2 class="text-center green-text">Goats</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-1.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-1</h3>
+                            <h5 class="card-text">Price: $6,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-2.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-2</h3>
+                            <h5 class="card-text">Price: $10,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-3.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-3</h3>
+                            <h5 class="card-text">Price: $4,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-4.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-4</h3>
+                            <h5 class="card-text">Price: $5,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-5.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-5</h3>
+                            <h5 class="card-text">Price: $3,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/goats/goat-6.jpg" class="card-img-top p-3" alt="..." width="356px" height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Goat-6</h3>
+                            <h5 class="card-text">Price: $7,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- sheeps section ------------------------------------>
+        <section class="container mt-5" id="sheeps">
+            <h2 class="text-center green-text">Sheeps</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/sheeps/sheep-1.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Sheep-1</h3>
+                            <h5 class="card-text">Price: $6,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/sheeps/sheep-2.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Sheep-2</h3>
+                            <h5 class="card-text">Price: $10,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/sheeps/sheep-4.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Sheep-3</h3>
+                            <h5 class="card-text">Price: $4,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- Camel section ------------------------------------>
+        <section class="container mt-5" id="camels">
+            <h2 class="text-center green-text">Camels</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/camels/camel-2.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Camel-1</h3>
+                            <h5 class="card-text">Price: $6,00,000</h5>
+                        </div>
+                        <!-- modal prodorshoni -->
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/camels/camel-1.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Camel-2</h3>
+                            <h5 class="card-text">Price: $10,00,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card border-0 box-shadow rounded-3">
+                        <img src="img/camels/camel-3.jpg" class="card-img-top p-3" alt="..." width="356px"
+                            height="235px">
+                        <div class="card-body">
+                            <h3 class="card-title">Qurbani Special Camel-3</h3>
+                            <h5 class="card-text">Price: $4,00,000</h5>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="brown-button rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact Seller
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Potol Ali</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Address- Barishal, Bangladesh <br>
+                                            Email- potol@gmail.com <br>
+                                            Phone- o1*********
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="brown-button rounded-pill"
+                                                data-bs-dismiss="modal">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------- sellers section -------------------------------->
+        <section class="container mt-5" id="sellers">
+            <h2 class="p-2 green-text text-center">Our Sellers</h2>
+            <div class="row">
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-1.png" alt="" width="56">
+                    <h3>Potol Ali</h3>
+                </div>
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-2.png" alt="" width="56">
+                    <h3>Korola Khan</h3>
+                </div>
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-3.png" alt="" width="56">
+                    <h3>Pepe Mia</h3>
+                </div>
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-4.png" alt="" width="56">
+                    <h3>Alu Mama</h3>
+                </div>
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-5.png" alt="" width="56">
+                    <h3>Dherosh Bepari</h3>
+                </div>
+                <div class="d-flex align-items-center col-lg-4 col-md-6 col-12">
+                    <img class="m-3" src="img/sellers/player-6.png" alt="" width="56">
+                    <h3>Jhinga Mia</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------- sponsor section -------------------------------->
+        <h1 class="pt-5 green-text text-center">Our Honourable Sponsors</h1>
+        <section class="container lite-bg" id="sponsors">
+            <div class="d-flex justify-content-around"">
+                <img src="img/sponsors/deal.png" alt="" width="100px">
+                <img src="img/sponsors/megaphone.png" alt="" width="100px">
+                <img src="img/sponsors/sponsor (1).png" alt="" width="100px">
+                <img src="img/sponsors/sponsor.png" alt="" width="100px">
+            </div>
+        </section>
+
+        <!--------------------- contact section -------------------------------->
+        <section style="height: 300px;" class="container my-5 d-flex justify-content-center lite-bg align-items-center" id="contact">
+            <div>
+              <h1 class="pt-5 green-text">LET'S STAY IN TOUCH</h1>
+              <p>Get updates on sales, specials and more, If you have any complain <br> regarding our service or our sellers please let us know.</p>
+              <input class="form-control" type="text" placeholder="Your Email">
+              <br>
+              <input class="form-control" type="text" placeholder="Description">
+              <br>
+              <button class="brown-button rounded-pill mb-5">Submit</button>
+            </div>
+          </section>
+    </main>
+    <footer class="mt-5 text-center">
+        <p><small>©2021. Digital Hut. All rights reserved. Khurshida Jahan, Bangladesh</small></p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.brown-bg{
+    background-color:    #e3b448;
+}
+.green-text{
+    color: #3a6b35;
+}
+.lite-bg{
+    background-color: #c3fc9e;
+}
+.item-hover:hover{
+    background-color: #e3b448;
+}
+.brown-button {
+    text-decoration: none;
+    background-image: radial-gradient(#fadd9a, #f3bb38);
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.box-shadow{
+    box-shadow: 5px 5px 10px lightgrey;
+}
